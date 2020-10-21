@@ -1,0 +1,4 @@
+#Wed Oct 21 20:44:25 BST 2020
+base.0=C\:\\Pedro Souto\\Projetos\\ICM\\SongDetail_start\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
