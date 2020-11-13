@@ -1,4 +1,4 @@
-package com.example.weatherapp;
+package pt.ua.nextweather;
 
 import android.content.Context;
 
@@ -21,6 +21,7 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.weatherapp", appContext.getPackageName());
+
+        assertEquals("pt.ua.nextweather", appContext.getPackageName());
     }
 }

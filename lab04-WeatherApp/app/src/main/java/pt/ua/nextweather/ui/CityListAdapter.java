@@ -1,4 +1,4 @@
-package com.example.weatherapp;
+package pt.ua.nextweather.ui;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,12 +9,16 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.HashMap;
+import java.util.TreeSet;
+
+import pt.ua.nextweather.R;
+import pt.ua.nextweather.datamodel.City;
 
 public class CityListAdapter extends RecyclerView.Adapter<CityViewHolder>{
-    private final HashMap<String,Integer> cCityList;
+    public static HashMap<String, City> cCityList;
     private LayoutInflater cInflater;
 
-    public CityListAdapter(Context context, HashMap<String,Integer> cityList) {
+    public CityListAdapter(Context context, HashMap<String, City> cityList) {
         cInflater = LayoutInflater.from(context);
         this.cCityList = cityList;
     }
@@ -30,7 +34,8 @@ public class CityListAdapter extends RecyclerView.Adapter<CityViewHolder>{
 
     @Override
     public void onBindViewHolder(@NonNull CityViewHolder holder, int position) {
-        String mCurrent = cCityList.keySet().toArray()[position].toString();
+        TreeSet<String> keys = new TreeSet<>(cCityList.keySet());
+        String mCurrent = keys.toArray()[position].toString();
         holder.view.setText(mCurrent);
     }
 

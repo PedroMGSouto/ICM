@@ -1,4 +1,4 @@
-package com.example.weatherapp;
+package pt.ua.nextweather;
 
 import org.junit.Test;
 

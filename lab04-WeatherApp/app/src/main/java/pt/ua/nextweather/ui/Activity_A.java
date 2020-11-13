@@ -1,8 +1,10 @@
-package com.example.weatherapp;
+package pt.ua.nextweather.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import pt.ua.nextweather.R;
 
 public class Activity_A extends AppCompatActivity {
 
