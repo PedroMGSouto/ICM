@@ -2,16 +2,16 @@
 ICM Homework and Assignments
 
 # Login
-User: testuser@sapo.pt
+User: testuser@sapo.pt <br />
 Pass: teste!
 
 # Navigation on the app
-Entering the application you'll see the requests. 
-Click "join party" on any of them to join a chat room, you'll see all the messages and can send your own.
+Entering the application you'll see the requests. <br />
+Click "join party" on any of them to join a chat room, you'll see all the messages and can send your own. <br />
 In the home screen swipe left and fill the fields to make a new request (which will also make a new chat room).
 
 # Map 
-After giving the necessary permissions the map might not load instantly, click the map button again in the bottom navigation bar to make it work.
+After giving the necessary permissions the map might not load instantly, click the map button again in the bottom navigation bar to make it work. <br />
 The map loads the wrong position on the marker, but clicking the button on the top right will take you to your position.
 
 # Scanner
